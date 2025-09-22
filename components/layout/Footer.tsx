@@ -83,7 +83,6 @@ export function Footer() {
               })}
             </div>
             <div className="text-sm text-foreground/60">
-              <p>Phone: +91 8700745395</p>
               <p>Email: ashishk2004a@gmail.com</p>
             </div>
           </div>

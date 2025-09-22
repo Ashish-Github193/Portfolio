@@ -27,14 +27,16 @@ const workExperience = [
     company: "Leadzen.ai",
     location: "New Delhi, Delhi, India",
     period: "March 2025 - Present",
-    duration: "7 months",
+    duration: "6 months",
     type: "Current Role",
     description: [
-      "Leading backend development initiatives for scalable automation platforms",
+      "Leading backend development initiatives to improve scalability and maintainability",
       "Architecting and implementing microservices using FastAPI and Docker",
-      "Optimizing database performance and designing efficient data pipelines",
-      "Mentoring junior developers and conducting code reviews",
-      "Driving technical decisions for system design and architecture improvements",
+      "Implementing and maintaining CI/CD pipelines, automated deployments, and monitoring solutions",
+      "Led migration of cloud infrastructure from OVH Cloud to E2E Networks, reducing costs by 50%",
+      "Driving system design and architecture decisions to enhance performance and reliability",
+      "Ensuring quality engineering through robust planning, design, tooling, and precise implementation",
+      "Mentoring junior developers and conducting thorough code reviews to maintain high standards",
     ],
     technologies: [
       "Python",
@@ -43,29 +45,54 @@ const workExperience = [
       "MongoDB",
       "System Design",
       "Microservices",
+      "CI/CD",
+      "Cloud Services",
+      "Server Monitoring",
     ],
   },
   {
-    title: "Software Development Engineer - 1",
+    title: "Backend Engineer",
     company: "Leadzen.ai",
     location: "New Delhi, Delhi, India",
-    period: "February 2023 - March 2025",
-    duration: "2 years 2 months",
+    period: "October 2023 - March 2025",
+    duration: "1 years 5 months",
     type: "Promotion",
     description: [
-      "Developed and maintained backend services for automation and lead generation platforms",
-      "Built robust web scraping solutions handling large-scale data extraction",
-      "Implemented RESTful APIs serving thousands of daily requests",
-      "Collaborated with frontend teams to deliver end-to-end features",
-      "Participated in on-call rotations and incident response procedures",
+      "Developed and maintained backend for the analystt.ai platform supporting investment decision-making",
+      "Implemented high-performance RESTful APIs handling thousands of daily requests with low latency",
+      "Built and optimized large-scale web scraping solutions capable of on-demand web-scraping",
+      "Collaborated with cross-functional teams to deliver end-to-end features to production within deadlines",
     ],
     technologies: [
       "Python",
       "FastAPI",
       "PostgreSQL",
       "Docker",
+      "REST APIs",
+      "Web Scraping",
+    ],
+  },
+  {
+    title: "Backend Engineer Intern",
+    company: "Leadzen.ai",
+    location: "New Delhi, Delhi, India",
+    period: "February 2023 - October 2023",
+    duration: "9 months",
+    type: "Intern → Full-time (FTE)",
+    description: [
+      "Developed the Leadzen campaign dashboard to streamline marketing workflows via Email and WhatsApp campaigns",
+      "Built robust web scrapers using Selenium to extract publicly available marketing data from multiple websites",
+      "Developed lightweight FastAPI servers for internal organizational use and operations team tooling",
+      "Tested and validated REST APIs using tools such as Postman and Thunder Client",
+    ],
+    technologies: [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Django",
       "Web Scraping",
       "REST APIs",
+      "Selenium",
     ],
   },
 ];
@@ -193,7 +220,7 @@ function TimelineItem({
 export default function ExperiencePage() {
   return (
     <div className="py-12">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-4xl">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Experience & Education</h1>
           <p className="text-lg text-foreground/60">

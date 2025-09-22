@@ -23,7 +23,7 @@ const featuredProjects = [
   {
     title: "Portmux",
     description:
-      "PortMUX helps you create and manage SSH port forwards without dealing with tmux commands directly. Simplified port forwarding management.",
+      "PortMUX simplifies SSH port forwarding by enabling detached, long-lived sessions with an intuitive CLI and TOML-based profile management. Designed for hassle-free, multi-profile port forwarding.",
     language: "Python",
     stars: 1,
     githubUrl: "https://github.com/Ashish-Github193/Portmux",

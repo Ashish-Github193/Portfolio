@@ -60,12 +60,6 @@ export function ContactForm() {
       href: "mailto:ashishk2004a@gmail.com",
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 8700745395",
-      href: "tel:+918700745395",
-    },
-    {
       icon: Linkedin,
       label: "LinkedIn",
       value: "linkedin.com/in/ashishk2004a",
